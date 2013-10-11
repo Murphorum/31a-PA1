@@ -1,0 +1,18 @@
+badcommandname
+cd test
+pwd
+ls
+cat foo
+cat foo bar
+cat foo bar | lc
+cat foo bar | grep hello
+cat foo bar | grep hello | lc
+cat foo bar | grep hello > friendly-lines
+ls
+cat friendly-lines
+ls | grep foo | lc
+history
+history | grep hello
+!4
+!6 | grep hello
+exit
